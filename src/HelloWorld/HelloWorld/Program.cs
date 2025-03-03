@@ -12,7 +12,7 @@ namespace HelloWorld
 
             HelloPrinter printer = new HelloPrinter();
 
-            if (name == null)
+            if (string.IsNullOrEmpty(name))
             {
                 Console.WriteLine("Please write something bro...");
             }
